@@ -1,1 +1,7 @@
-// Your code here
+
+export function currentAgeForBirthYear(birthyear){
+    const current=parseFloat(2022)
+    return(
+        (current-parseFloat(birthyear))
+    )
+}
